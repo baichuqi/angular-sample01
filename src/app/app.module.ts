@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { UserListItemComponentComponent } from './user-list-item-component/user-list-item-component.component';
+import { UserListComponent } from './user-list/user-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    UserListItemComponentComponent,
+    UserListComponent
   ],
   imports: [
     HttpClientModule,

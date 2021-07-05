@@ -8,6 +8,6 @@ import { User } from '../user';
 })
 export class UserListComponent{
 
-  @Input() users!: User[];
+  @Input() users!: User[] | null;
 
 }
